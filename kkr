@@ -1,0 +1,7 @@
+#!/usr/bin/php
+<?php 
+$passwd = 'l4CVhvYu';
+$usr = 'kyko_admin';
+$url = 'kykoroofing.com';
+$mnt = 'httpdocs/cms';
+include '/home/tegt/bin/vr.php';

@@ -1,0 +1,2 @@
+#! /bin/bash
+find . -path "*/.git" -prune -o -path "*docdoc" -prune -o -not -regex "\(.*\.\(js\|sql\|jpg\|png\|mp4\|mp3\|gif\|git\)\)\|\(.*dump.*\)\|\(.*[#~]\)" -not -lname "*" -print0 | xargs -0 -e grep -nH $*

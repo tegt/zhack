@@ -1,0 +1,7 @@
+#!/usr/bin/php
+<?php 
+$usr = 'wpcop';
+$url = 'wpc.deststudios.com';
+$mnt = 'public_html';
+$extra = '/wp-content/themes/wpc';
+include '/home/tegt/bin/vr.php';

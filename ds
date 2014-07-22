@@ -1,0 +1,6 @@
+#!/usr/bin/php
+<?php 
+$usr = 'deststudios';
+$url = 'deststudios.com';
+$mnt = 'httpdocs/cms';
+include '/home/tegt/bin/vr.php';

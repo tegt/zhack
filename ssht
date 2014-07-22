@@ -1,0 +1,3 @@
+#! /bin/bash
+echo cups:3631 samba:3901
+ssh -L 3631:localhost:631 -L 3901:localhost:901 $1

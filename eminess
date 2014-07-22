@@ -1,0 +1,7 @@
+#!/usr/bin/php
+<?php 
+$passwd = 'dest1234';
+$usr = 'root';
+$url = '72.10.55.177';
+$mnt = '/var/www/vhosts/eminess.com/httpdocs';
+include '/home/tegt/bin/vr.php';

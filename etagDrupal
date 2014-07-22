@@ -1,0 +1,4 @@
+#! /bin/bash
+# build a tags table for the drupal tree here
+rm -rf dTAGS
+find `pwd` -type f \( -name '*.module' -o -name '*.install' -o -name '*.inc' -o -name '*.php' \) -exec etags -a -o dTAGS "{}" ";"

@@ -1,0 +1,1 @@
+/home/tegt/bin/emacs/reserve/git.el

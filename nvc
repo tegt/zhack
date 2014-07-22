@@ -1,0 +1,7 @@
+#!/usr/bin/php
+<?php 
+$usr = 'nwvweb';
+$url = 'nationwidevision.com';
+$mnt = 'public_html';
+$extra = '/wp-content/themes/nwv';
+include '/home/tegt/bin/vr.php';

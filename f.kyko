@@ -1,0 +1,4 @@
+#! /bin/bash
+echo l4CVhvYu
+read
+sshfs kyko_admin@kykoroofing.com: ~/fs

@@ -1,0 +1,3 @@
+#! /bin/bash
+# run xargs against a find that ignores non-source files
+find . -path "*/.svn" -prune -o -path "*docdoc" -prune -o -not -regex "\(.*dump.*\)\|\(.*[#~]\)" -not -lname "*" -print0 | xargs -0 -e $*
